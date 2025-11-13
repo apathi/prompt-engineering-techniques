@@ -1,0 +1,67 @@
+# Self Consistency - Output
+# Generated: 2025-09-03 02:16:30
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+         07: SELF-CONSISTENCY PROMPTING - LANGCHAIN         
+============================================================
+
+==================================================
+TECHNIQUE: Multiple Reasoning Paths Analysis
+==================================================
+
+--- Example 1: Unknown ---
+Response: To solve the problem using Approach #1 (working backwards from the final amount), we can reverse the percentage changes to find the original profit.
+
+1. **Start with the final profit at the end of Yea...
+
+--- Example 2: Unknown ---
+Response: To solve the problem using Approach #2 (setting up algebraic equations), we will define the original profit as \( P \).
+
+1. **Profit Increase in Year 1**: The profit increased by 25%. Therefore, the p...
+
+--- Example 3: Unknown ---
+Response: To solve the problem using Approach #3 (step-by-step percentage calculations), we will break down the profit changes year by year, working backwards to find the original profit.
+
+### Step 1: Understan...
+
+--- Example 4: Unknown ---
+Response: Winner: lve the problem using Approach #1 (working backwards from the final amount), we can reverse the percentage changes to find the original profit
+Confidence: 33.3%
+Vote Distribution: {'lve the pr...
+
+[Progress: 1/2 sections completed]
+
+==================================================
+TECHNIQUE: Complex Decision Making Consensus
+==================================================
+
+--- Example 1: Unknown ---
+Response: To analyze the startup's options from a risk management perspective, we can evaluate each option based on probability of failure, financial risk vs. reward, market timing risks, and resource allocatio...
+
+--- Example 2: Unknown ---
+Response: To analyze the decision from a financial optimization perspective, let's break down each option using expected value calculations, cash flow implications, ROI, payback periods, and funding runway cons...
+
+--- Example 3: Unknown ---
+Response: When analyzing the strategic options available to the tech startup, we must consider factors such as competitive advantage creation, market positioning implications, long-term strategic value, and ali...
+
+--- Example 4: Unknown ---
+Response: Voting Results:
+Most Common Recommendation: To analyze the startup's options from a risk management perspective, we can evaluate each option based on probability of failure, financial risk vs. reward,...
+
+[Progress: 2/2 sections completed]
+
+============================================================
+COST SUMMARY
+============================================================
+==================================================
+SESSION SUMMARY: self_consistency
+==================================================
+Total Requests: 6
+Total Cost: $0.0016
+Total Tokens: 3,438
+  - Input: 1,038
+  - Output: 2,400
+Techniques Used: seq:step:2
+==================================================

@@ -1,0 +1,67 @@
+# Constrained Generation - Output
+# Generated: 2025-09-03 02:16:48
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+           08: CONSTRAINED GENERATION - LANGCHAIN           
+============================================================
+
+==================================================
+TECHNIQUE: Structured Format Generation
+==================================================
+
+--- Example 1: Unknown ---
+Response: ```json
+{
+  "product_name": "EcoVessel Boulder Insulated Water Bottle",
+  "price": 34.95,
+  "features": {
+    "insulation": "Double-wall vacuum insulation keeps beverages cold for up to 36 hours and h...
+
+--- Example 2: Unknown ---
+Response: - **Product Recommendation: EcoVessel Boulder Insulated Water Bottle**
+
+  - **Target Audience:** 
+    - Environmentally conscious professionals
+
+  - **Price Range:** 
+    - $29.95
+
+  - **Key Features:...
+
+[Progress: 1/2 sections completed]
+
+==================================================
+TECHNIQUE: Multi-Constraint Compliance
+==================================================
+
+--- Example 1: Unknown ---
+Response: Subject: Apology for Delayed Delivery
+
+Dear [Client's Name],
+
+I sincerely apologize for the delay in delivering your custom furniture. We understand the importance of timely service and are actively w...
+
+--- Example 2: Unknown ---
+Response: Subject: Update on Your Custom Furniture Order
+
+Dear [Client's Name],
+
+Thank you for reaching out to us regarding your order. I want to acknowledge your concerns about the delayed delivery of your cus...
+
+[Progress: 2/2 sections completed]
+
+============================================================
+COST SUMMARY
+============================================================
+==================================================
+SESSION SUMMARY: constrained_generation
+==================================================
+Total Requests: 4
+Total Cost: $0.0005
+Total Tokens: 1,148
+  - Input: 457
+  - Output: 691
+Techniques Used: seq:step:2
+==================================================

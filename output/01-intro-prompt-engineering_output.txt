@@ -1,0 +1,127 @@
+# Intro Prompt Engineering - Output
+# Generated: 2025-09-01 01:27:41
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+     01: INTRODUCTION TO PROMPT ENGINEERING - LANGCHAIN     
+============================================================
+
+==================================================
+TECHNIQUE: Basic Prompt Structure
+==================================================
+
+--- Example 1: Unknown ---
+Clarity Level: vague
+Prompt: Explain prompt engineering
+Description: Minimal context, unclear expectations
+Response: Prompt engineering is the process of designing and refining the input prompts given to language models, like GPT-3 or GPT-4, to elicit the most accurate, relevant, and useful responses. It involves cr...
+
+--- Example 2: Unknown ---
+Clarity Level: clear
+Prompt: Explain the concept of prompt engineering in one clear sentence.
+Description: Specific format and length requirements
+Response: Prompt engineering is the practice of designing and refining input prompts to effectively guide AI models, like language models, in generating desired outputs or responses.
+
+--- Example 3: Unknown ---
+Clarity Level: structured
+Prompt: Define prompt engineering and explain why it's important for AI applications.
+Description: Clear task structure with multiple components
+Response: **Prompt Engineering** refers to the process of designing and refining the input prompts given to AI models, particularly large language models (LLMs), to elicit the desired responses or behaviors. Th...
+
+[Progress: 1/4 sections completed]
+
+==================================================
+TECHNIQUE: Template Structure Comparison
+==================================================
+
+--- Example 1: minimal ---
+Template Type: minimal
+Structure: Single instruction, no constraints
+Response: Recent advancements in prompt engineering indicate that structured prompts enhance AI response quality, with clear constraints and format specifications boosting accuracy by 40%. This highlights the i...
+
+--- Example 2: guided ---
+Template Type: guided
+Structure: Structured with specific requirements
+Response: **Summary:**
+
+1. **Main Topic:** The article discusses recent advancements in prompt engineering and its impact on AI response quality.
+
+2. **Key Findings:** Researchers have discovered that structure...
+
+--- Example 3: constrained ---
+Template Type: constrained
+Structure: Highly constrained format
+Response: Recent advances in prompt engineering indicate that structured prompts enhance the quality of AI responses. Researchers discovered that incorporating clear constraints and format specifications can bo...
+
+[Progress: 2/4 sections completed]
+
+==================================================
+TECHNIQUE: Fact-Checking Patterns
+==================================================
+
+--- Example 1: direct_verification ---
+Pattern: direct_verification
+Statement: The Earth orbits around the Sun in exactly 365 days.
+Response: The statement is false. The Earth takes approximately 365.25 days to complete one orbit around the Sun. This is why we have a leap year every four years, adding an extra day (February 29) to account f...
+
+--- Example 2: source_request ---
+Pattern: source_request
+Statement: Python is the most popular programming language in 2024.
+Response: To verify the claim that "Python is the most popular programming language in 2024," you would need to consult several sources that track programming language popularity. Here are some key sources that...
+
+--- Example 3: confidence_rating ---
+Pattern: confidence_rating
+Statement: Machine learning models always require large datasets to be effective.
+Response: 1. Partially True
+2. Confidence level: 75%
+3. While many machine learning models, especially deep learning models, tend to perform better with large datasets due to their complexity and the need for d...
+
+[Progress: 3/4 sections completed]
+
+==================================================
+TECHNIQUE: Problem-Solving Approaches
+==================================================
+
+--- Example 1: direct_solution ---
+Approach: direct_solution
+Problem: How can a small business increase customer retention?
+Response: Increasing customer retention is crucial for small businesses, as retaining existing customers is often more cost-effective than acquiring new ones. Here’s a comprehensive solution that encompasses va...
+
+--- Example 2: step_by_step ---
+Approach: step_by_step
+Problem: How can a small business increase customer retention?
+Response: To increase customer retention for a small business, follow these clear steps:
+
+### 1. First, Identify Customer Needs and Preferences
+   - **Conduct Surveys and Feedback:** Use surveys, feedback forms...
+
+--- Example 3: analytical ---
+Approach: analytical
+Problem: How can a small business increase customer retention?
+Response: ### Root Cause Analysis
+
+1. **Lack of Customer Engagement**: Many small businesses fail to maintain regular communication with their customers, leading to a disconnect and reduced loyalty.
+
+2. **Incon...
+
+--- Example 4: pros_cons ---
+Approach: pros_cons
+Problem: How can a small business increase customer retention?
+Response: Increasing customer retention is crucial for small businesses, as retaining existing customers is often more cost-effective than acquiring new ones. Here are several potential solutions, along with th...
+
+[Progress: 4/4 sections completed]
+
+============================================================
+COST SUMMARY
+============================================================
+==================================================
+SESSION SUMMARY: intro_prompt_engineering
+==================================================
+Total Requests: 13
+Total Cost: $0.0022
+Total Tokens: 4,073
+  - Input: 543
+  - Output: 3,530
+Techniques Used: seq:step:2
+==================================================

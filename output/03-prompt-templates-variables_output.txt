@@ -1,0 +1,152 @@
+# Prompt Templates Variables - Output
+# Generated: 2025-09-01 01:31:36
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+       03: PROMPT TEMPLATES AND VARIABLES - LANGCHAIN       
+============================================================
+
+==================================================
+TECHNIQUE: Basic Variable Substitution
+==================================================
+
+--- Example 1: simple ---
+Response: Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose. This process primarily occurs in the c...
+
+--- Example 2: complex ---
+Response: Neural networks are a key technology in artificial intelligence (AI) that are inspired by the way the human brain works. They consist of layers of interconnected nodes, or "neurons," which process inf...
+
+[Progress: 1/5 sections completed]
+
+==================================================
+TECHNIQUE: Conditional Templates
+==================================================
+
+--- Example 1: Unknown ---
+Condition: with_profession
+Input: {'name': 'Alex', 'age': '28', 'profession': 'software developer'}
+Response: Sure, Alex! Here are some career tips for you as a software developer:
+
+1. **Continuous Learning**: Stay updated with the latest technologies and programming languages. Consider online courses or cert...
+
+--- Example 2: Unknown ---
+Condition: without_profession
+Input: {'name': 'Sam', 'age': '22'}
+Response: Sure, Sam! Here are some steps you can take:
+
+1. **Identify Interests**: Reflect on what you enjoy and are passionate about. This can guide your career choices.
+
+2. **Skill Development**: Consider tak...
+
+[Progress: 2/5 sections completed]
+
+==================================================
+TECHNIQUE: List Processing Templates
+==================================================
+
+--- Example 1: categorization ---
+Items: apple, banana, carrot, hammer, screwdriver, pliers, novel, textbook, magazine
+Response: Here are the categorized groups for the items you provided:
+
+### Fruits
+- Apple
+- Banana
+
+### Vegetables
+- Carrot
+
+### Tools
+- Hammer
+- Screwdriver
+- Pliers
+
+### Literature
+- Novel
+- Textbook
+- Magazi...
+
+--- Example 2: formatted_analysis ---
+Items: Python, JavaScript, HTML, CSS, React...
+Response: The list provided consists of programming languages, frameworks, and technologies commonly used in web development. Here's a summary and analysis of the items:
+
+### Summary of Items:
+1. **Python**: A ...
+
+[Progress: 3/5 sections completed]
+
+==================================================
+TECHNIQUE: Dynamic Instruction Templates
+==================================================
+
+--- Example 1: Unknown ---
+Case 1:
+  Task: Design a logo for a tech startup
+  Context: The startup focuses on AI-driven healthcare soluti...
+  Constraints: Must use blue and green colors, and should be simp...
+Response: ### Logo Design Concept for AI-Driven Healthcare Startup
+
+#### Name: **HealthAI**
+
+#### Design Elements:
+
+1. **Color Palette:**
+   - **Blue:** Represents trust, reliability, and technology. It is ofte...
+
+--- Example 2: Unknown ---
+Case 2:
+  Task: Create a marketing strategy
+  Context: Small local coffee shop wanting to increase custom...
+  Constraints: Budget limited to $500 per month, must focus on di...
+Response: ### Marketing Strategy for Small Local Coffee Shop
+
+**Objective:** Increase customer base through targeted digital marketing efforts within a budget of $500 per month.
+
+---
+
+### Target Audience
+- Loca...
+
+--- Example 3: Unknown ---
+Case 3:
+  Task: Plan a team building event
+  Context: Remote software development team of 20 people acro...
+  Constraints: Virtual event, 2-hour maximum duration, engaging f...
+Response: ### Team Building Event Plan: Virtual Escape Room Challenge
+
+**Event Title:** "Escape the Code: A Virtual Adventure"
+
+**Duration:** 2 hours
+
+**Platform:** Zoom (or any preferred video conferencing too...
+
+[Progress: 4/5 sections completed]
+
+==================================================
+TECHNIQUE: Template Composition
+==================================================
+
+--- Example 1: Unknown ---
+Composed from: header, body, footer
+Project: AI Customer Service Bot
+Response: **Executive Summary: AI Customer Service Bot Project**
+
+**Date:** January 15, 2024
+
+The AI Customer Service Bot project aims to enhance customer support efficiency by implementing an AI-powered chatbo...
+
+[Progress: 5/5 sections completed]
+
+============================================================
+COST SUMMARY
+============================================================
+==================================================
+SESSION SUMMARY: prompt_templates_variables
+==================================================
+Total Requests: 10
+Total Cost: $0.0017
+Total Tokens: 3,218
+  - Input: 515
+  - Output: 2,703
+Techniques Used: seq:step:2
+==================================================

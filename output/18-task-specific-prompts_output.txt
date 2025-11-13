@@ -1,0 +1,120 @@
+# 18 Task Specific Prompts - Output
+# Generated: 2025-09-04 11:25:23
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+               18: PROMPTS FOR SPECIFIC TASKS               
+============================================================
+Execution Time: 09/04/25, 11:24:42 AM PDT
+============================================================
+
+==================================================
+TECHNIQUE: Domain-Specific Optimization
+==================================================
+Description: Specialized prompt templates optimized for specific task domains with performance tracking
+Why This Works: Different tasks require different cognitive approaches and output formats. By tailoring temperature, token limits, and prompt structures to specific domains, we optimize for domain-specific success criteria. This improves both quality and efficiency compared to generic approaches.
+
+--- Example 1: Unknown ---
+Response: Artificial intelligence (AI) is revolutionizing various industries by enhancing efficiency, reducing costs, and improving decision-making through advanced data analysis. While the benefits of AI are significant, concerns about job displacement, privacy, and the necessity for new regulatory frameworks are emerging. As companies invest heavily in AI research, governments face the challenge of creating regulations that balance innovation with the need for oversight.
+
+--- Example 2: Unknown ---
+Response: The Eiffel Tower is 330 meters (1,083 feet) tall and was built from 1887 to 1889.
+
+--- Example 3: Unknown ---
+Response: Here's a Python function that calculates the average of even numbers in a list, including error handling, comments, and a simple test case:
+
+```python
+def average_of_evens(numbers):
+    """
+    Calculate the average of even numbers in a given list.
+
+    Parameters:
+    numbers (list): A list of integers.
+
+    Returns:
+    float: The average of even numbers, or None if there are no even numbers.
+    
+    Raises:
+    ValueError: If the input is not a list or contains non-integer elements.
+    """
+    # Check if the input is a list
+    if not isinstance(numbers, list):
+        raise ValueError("Input must be a list.")
+
+    # Initialize variables to hold the sum of even numbers and their count
+    even_sum = 0
+    even_count = 0
+
+    # Iterate through the list to find even numbers
+    for num in numbers:
+        # Check if the element is an integer
+        if not isinstance(num, int):
+            raise ValueError("All elements in the list must be integers.")
+        
+        # Check if the number is even
+        if num % 2 == 0:
+            even_sum += num
+            even_count += 1
+
+    # Calculate the average if there are even numbers
+    if even_count == 0:
+        return None  # Return None if no even numbers are found
+
+    return even_sum / even_count  # Return the average of even numbers
+
+# Simple test case
+if __name__ == "__main__":
+    test_list = [1, 2, 3, 4, 5, 6]
+    average = average_of_evens(test_list)
+    print(f"The average of even numbers in {test_list} is: {average}")
+```
+
+### Explanation:
+1. **Function Definition**: The function `average_of_evens` takes a list of integers as input.
+2. **Input Validation**: It checks if the input is a list and whether all elements are integers, raising a `ValueError` if not.
+3. **Calculation**: It iterates through the list, summing up even numbers and counting them.
+4. **Average Calculation**: If
+
+--- Example 4: Unknown ---
+Response: On a foggy Tuesday morning in the quaint town of Willow Creek, Sarah Thompson found a small, unmarked package on her doorstep. The air was thick with the scent of damp earth, and the leaves rustled ominously in the breeze. Sarah, a local librarian with a penchant for mysteries, eyed the box warily. It was addressed to her, but she had no recollection of ordering anything.
+
+Her curiosity piqued, she took the package inside her cozy, book-filled home. As she carefully peeled back the brown paper, her heart raced. Inside lay an antique locket, tarnished but beautiful, with an engraving that read, “To my dearest Clara.” 
+
+Intrigued, Sarah decided to investigate. She visited the town’s historical society, where she met Mr. Jenkins, a grizzled historian with a twinkle in his eye. He recognized the locket immediately; it had belonged to Clara Bennett, a woman who mysteriously vanished in the 1920s. 
+
+As Sarah delved deeper, she uncovered a web of secrets involving Clara’s forbidden love for a man from a rival family. The locket, it seemed, held the key to a long-buried truth. 
+
+With Mr. Jenkins’ help, Sarah tracked down Clara’s descendants, revealing the locket’s existence to them. The family was overjoyed, finally able to piece together their ancestor’s story. 
+
+As Sarah closed the chapter on the mystery, she felt a sense of fulfillment, knowing she had brought light to a forgotten past.
+
+[Progress: 1/2 sections completed]
+
+==================================================
+TECHNIQUE: Advanced Multi-Domain Integration
+==================================================
+Description: Sophisticated task orchestration combining multiple specialized domains for complex deliverables
+Why This Works: Complex real-world tasks often require multiple cognitive modes and domain expertise. By orchestrating specialized prompts across different domains and passing context between steps, we can create sophisticated workflows that leverage each domain's strengths while maintaining coherence across the entire deliverable.
+
+--- Example 1: Unknown ---
+Response: No response
+
+--- Example 2: Unknown ---
+Response: No response
+
+[Progress: 2/2 sections completed]
+
+============================================================
+COST SUMMARY
+============================================================
+==================================================
+SESSION SUMMARY: task_specific_prompts
+==================================================
+Total Requests: 9
+Total Cost: $0.0017
+Total Tokens: 3,847
+  - Input: 1,277
+  - Output: 2,570
+Techniques Used: seq:step:2
+==================================================

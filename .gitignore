@@ -1,0 +1,44 @@
+# Environment & Secrets
+.env
+.venv/
+venv/
+env/
+
+# IDE Settings
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Project-specific Generated Files
+old_plans/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/

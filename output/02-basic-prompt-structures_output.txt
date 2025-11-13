@@ -1,0 +1,152 @@
+# Basic Prompt Structures - Output
+# Generated: 2025-09-01 01:30:50
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+          02: BASIC PROMPT STRUCTURES - LANGCHAIN           
+============================================================
+
+==================================================
+TECHNIQUE: Single-Turn Prompts
+==================================================
+
+--- Example 1: Factual Query ---
+Response: The three primary colors are red, blue, and yellow. These colors cannot be created by mixing other colors together and serve as the foundation for creating a wide range of other colors through mixing....
+
+--- Example 2: Explanation Request ---
+Response: Machine learning is a branch of artificial intelligence that allows computers to learn from data and improve their performance over time without being explicitly programmed for every specific task. 
+
+...
+
+--- Example 3: Creative Task ---
+Response: Crimson whispers fall,  
+Dancing on the crisp, cool breeze—  
+Nature's soft farewell.
+
+--- Example 4: Problem Solving ---
+Response: To calculate the area of a circle, you can use the formula:
+
+\[
+\text{Area} = \pi r^2
+\]
+
+where \( r \) is the radius of the circle. Given that the radius is 5 units, you can substitute this value int...
+
+--- Example 5: Analysis Task ---
+Response: ### Advantages of Renewable Energy:
+
+1. **Sustainability**: Renewable energy sources, such as solar, wind, and hydro, are abundant and can be replenished naturally. This means they can provide a long-...
+
+[Progress: 1/5 sections completed]
+
+==================================================
+TECHNIQUE: Multi-Turn Conversation
+==================================================
+
+Conversation Flow:
+
+Turn 1:
+User: Tell me about Paris.
+Assistant: Paris, the capital city of France, is known for its rich history, art, fashion, and culture. Often referred to as "The City of Light" (La Ville Lumièr...
+
+Turn 2:
+User: What's the population of that city?
+Assistant: As of the latest estimates in 2023, the population of Paris proper (the city itself, not including the surrounding metropolitan area) is approximately...
+
+Turn 3:
+User: What are some famous landmarks there?
+Assistant: Paris is home to numerous famous landmarks that attract millions of visitors each year. Here are some of the most iconic:
+
+1. **Eiffel Tower**: Comple...
+
+Turn 4:
+User: How's the weather typically like in the city we've been discussing?
+Assistant: Paris experiences a temperate oceanic climate, characterized by mild to warm summers and cool to cold winters. Here's a breakdown of the typical weath...
+
+Turn 5:
+User: What's the best time of year to visit?
+Assistant: The best time to visit Paris largely depends on your preferences for weather, crowds, and activities. Here are some considerations for different times...
+
+[Progress: 2/5 sections completed]
+
+==================================================
+TECHNIQUE: Context Comparison
+==================================================
+Initial Context: Python is a high-level programming language known for its simplicity and readability. It was created...
+Follow-up Question: What are its main advantages?
+
+--- Without Context ---
+Response: Could you please clarify what "its" refers to? Are you asking about a specific product, technology, concept, or something else? This will help me provide a more accurate and relevant response.
+
+--- With Context ---
+Response: Python has several main advantages that contribute to its popularity among developers and organizations. Here are some of the key benefits:
+
+1. **Simplicity and Readability**: Python's syntax is clear...
+
+[Progress: 3/5 sections completed]
+
+==================================================
+TECHNIQUE: Memory Strategies Comparison
+==================================================
+
+--- Full Memory ---
+Description: Keep all conversation history
+Sample responses:
+  Turn 1: That's a wonderful choice! Italian cuisine is diverse, flavorful, and often focuses on fresh ingredi...
+  Turn 2: Making pasta from scratch is a rewarding experience! Here are the basic ingredients you'll need to m...
+  Turn 3: Making a good tomato sauce is a fundamental skill in Italian cooking, and it can elevate many dishes...
+
+--- Sliding Window ---
+Description: Keep last 3 exchanges
+Sample responses:
+  Turn 1: That's a wonderful choice! Italian cuisine is diverse, flavorful, and offers a wide range of dishes ...
+  Turn 2: Making pasta from scratch is a rewarding experience! Here are the basic ingredients you'll need to m...
+  Turn 3: Making a good tomato sauce is a fundamental skill in Italian cooking, and it can elevate many dishes...
+
+--- No Memory ---
+Description: No conversation memory
+Sample responses:
+  Turn 1: That's a wonderful choice! Italian cuisine is diverse, flavorful, and often relies on fresh ingredie...
+  Turn 2: To make basic pasta from scratch, you typically need the following ingredients:
+
+1. **Flour**: All-p...
+  Turn 3: Making a good tomato sauce is a simple yet rewarding process. Here’s a basic recipe that you can cus...
+
+[Progress: 4/5 sections completed]
+
+==================================================
+TECHNIQUE: Single vs Multi-Turn Comparison
+==================================================
+
+--- Single-Turn Responses ---
+Q: What is the capital of France?
+A: The capital of France is Paris.
+Q: What is its population?
+A: Could you please specify which location or entity you are referring to when you ask about its population?
+Q: What is the city's most famous landmark?
+A: To provide an accurate answer, I would need to know which city you are referring to. Each city has its own famous landmarks. For example, the Eiffel T...
+
+--- Multi-Turn Responses ---
+Q: What is the capital of France?
+A: The capital of France is Paris.
+Q: What is its population?
+A: As of my last knowledge update in October 2021, the population of Paris was approximately 2.1 million people within the city limits. However, the larg...
+Q: What is the city's most famous landmark?
+A: The most famous landmark in Paris is the Eiffel Tower. It was completed in 1889 and has become an iconic symbol of both the city and France as a whole...
+
+[Progress: 5/5 sections completed]
+
+============================================================
+COST SUMMARY
+============================================================
+==================================================
+SESSION SUMMARY: basic_prompt_structures
+==================================================
+Total Requests: 39
+Total Cost: $0.0095
+Total Tokens: 32,000
+  - Input: 21,469
+  - Output: 10,531
+Techniques Used: single_turn_explanation_request, single_comparison, single_turn_factual_query, no_memory_turn_4, no_memory_turn_1, no_memory_turn_2, seq:step:2, no_context_followup, single_turn_problem_solving, no_memory_turn_7, single_turn_analysis_task, no_memory_turn_5, no_memory_turn_6, no_memory_turn_3, single_turn_creative_task
+==================================================

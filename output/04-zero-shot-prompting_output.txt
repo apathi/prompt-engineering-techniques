@@ -1,0 +1,158 @@
+# Zero Shot Prompting - Output
+# Generated: 2025-09-01 01:33:05
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+            04: ZERO-SHOT PROMPTING - LANGCHAIN             
+============================================================
+
+==================================================
+TECHNIQUE: Direct Task Specification
+==================================================
+
+--- Example 1: Unknown ---
+Response: Positive
+
+--- Example 2: Unknown ---
+Response: Machine learning, a subset of artificial intelligence, allows computers to learn from data and make decisions autonomously using algorithms that uncover hidden insights.
+
+--- Example 3: Unknown ---
+Response: Translation: Bonjour, comment ça va aujourd'hui ?
+
+--- Example 4: Unknown ---
+Response: Entities:
+- Organizations: Apple Inc.
+- People: Tim Cook
+- Places: Paris
+
+[Progress: 1/5 sections completed]
+
+==================================================
+TECHNIQUE: Role-Based Prompting
+==================================================
+
+--- Example 1: Unknown ---
+Response: Investing in cryptocurrency can be an intriguing opportunity, but it also comes with significant risks. Here are some factors to consider before making a decision:
+
+### 1. **Understand Your Risk Toler...
+
+--- Example 2: Unknown ---
+Response: Sure! Let's break down the process of photosynthesis in a way that's easy to understand.
+
+**What is Photosynthesis?**
+
+Photosynthesis is the process by which green plants, algae, and some bacteria con...
+
+--- Example 3: Unknown ---
+Response: Intellectual property (IP) refers to a category of legal rights that protect creations of the mind. These creations can include inventions, literary and artistic works, designs, symbols, names, and im...
+
+--- Example 4: Unknown ---
+Response: Seasoning a cast iron skillet is essential for creating a non-stick surface and preventing rust. Here’s a step-by-step guide to properly season your cast iron skillet:
+
+### Materials Needed:
+- Cast ir...
+
+[Progress: 2/5 sections completed]
+
+==================================================
+TECHNIQUE: Format Specification
+==================================================
+
+--- Example 1: Unknown ---
+Format: Bullet Points
+Response: - **Improved Physical Health**: Enhances cardiovascular fitness, strengthens muscles, and improves flexibility.
+- **Weight Management**: Aids in maintaining a healthy weight or losing excess weight.
+-...
+
+--- Example 2: Unknown ---
+Format: JSON
+Input: This laptop is amazing! Fast processor, great battery life, and beautiful display. Highly recommend!
+Response: ```json
+{
+  "sentiment": "positive",
+  "rating": 5,
+  "summary": "The laptop has a fast processor, great battery life, and a beautiful display, making it highly recommended."
+}
+```
+
+--- Example 3: Unknown ---
+Format: Table
+Response: | Feature                     | Python                                         | JavaScript                                     |
+|-----------------------------|---------------------------------------...
+
+--- Example 4: Unknown ---
+Format: Numbered List
+Response: Sure! Here’s a step-by-step guide to making coffee:
+
+1. **Gather Your Supplies**: 
+   - Coffee beans or ground coffee
+   - Coffee maker (drip, French press, pour-over, etc.)
+   - Water
+   - Coffee fil...
+
+[Progress: 3/5 sections completed]
+
+==================================================
+TECHNIQUE: Multi-Step Reasoning
+==================================================
+
+--- Example 1: Unknown ---
+Response: To solve the problem, we need to determine the speed of the train first and then use that speed to find out how far it will travel in 5 hours.
+
+### Step 1: Calculate the speed of the train
+The speed o...
+
+--- Example 2: Unknown ---
+Response: When deciding whether a small business should invest in social media marketing or traditional advertising, it's essential to analyze the pros and cons of each approach. Here’s a step-by-step breakdown...
+
+--- Example 3: Unknown ---
+Response: Sure! Here’s a step-by-step breakdown of the boot-up process of a computer when you press the power button:
+
+### Step 1: Power Button Pressed
+- When you press the power button, it sends a signal to th...
+
+[Progress: 4/5 sections completed]
+
+==================================================
+TECHNIQUE: Comparative Zero-Shot Analysis
+==================================================
+
+--- Example 1: Unknown ---
+Prompt Style: Minimal
+Response: Yes, that message is likely spam. It contains several red flags typical of scams, such as the promise of a large sum of money, urgency to act quickly, and a call to click on a link. It's best to avoid...
+
+--- Example 2: Unknown ---
+Prompt Style: Detailed
+Response: Based on the content of the email provided, it can be classified as spam. Here are the factors that contribute to this classification:
+
+1. **Urgency**: The email creates a sense of urgency by stating ...
+
+--- Example 3: Unknown ---
+Prompt Style: Structured
+Response: Output: 'SPAM' 
+
+Reason: The message contains a common spam tactic of claiming a large monetary prize and urging immediate action, which is often used to lure recipients into providing personal inform...
+
+--- Example 4: Unknown ---
+Prompt Style: Role-Based
+Response: This email exhibits several characteristics commonly associated with spam or phishing attempts. Here’s a detailed analysis:
+
+1. **Subject Line and Content**:
+   - **Exaggerated Claims**: The claim of ...
+
+[Progress: 5/5 sections completed]
+
+============================================================
+COST SUMMARY
+============================================================
+==================================================
+SESSION SUMMARY: zero_shot_prompting
+==================================================
+Total Requests: 19
+Total Cost: $0.0028
+Total Tokens: 5,281
+  - Input: 765
+  - Output: 4,516
+Techniques Used: seq:step:2
+==================================================

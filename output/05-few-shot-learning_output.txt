@@ -1,0 +1,223 @@
+# Few Shot Learning - Output
+# Generated: 2025-09-01 01:33:25
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+             05: FEW-SHOT LEARNING - LANGCHAIN              
+============================================================
+
+==================================================
+TECHNIQUE: Basic Few-Shot Classification
+==================================================
+
+--- Example 1: Unknown ---
+Input: I can't believe how great this new restaurant is!
+Prediction: Positive
+Response: No response
+
+--- Example 2: Unknown ---
+Input: Complete waste of money and time.
+Prediction: Negative
+Response: No response
+
+--- Example 3: Unknown ---
+Input: It does what it's supposed to do, nothing special.
+Prediction: Neutral
+Response: No response
+
+--- Example 4: Unknown ---
+Input: Absolutely fantastic experience, highly recommended!
+Prediction: Positive
+Response: No response
+
+--- Example 5: Unknown ---
+Input: Not good, not bad, just average.
+Prediction: Neutral
+Response: No response
+
+[Progress: 1/6 sections completed]
+
+==================================================
+TECHNIQUE: Multi-Task Few-Shot Learning
+==================================================
+
+--- Example 1: Unknown ---
+Text: This exceeded my expectations!
+Task: sentiment
+Result: Positive
+Response: No response
+
+--- Example 2: Unknown ---
+Text: Hola, ¿cómo estás?
+Task: language
+Result: Spanish
+Response: No response
+
+--- Example 3: Unknown ---
+Text: I'm disappointed with this purchase.
+Task: sentiment
+Result: Negative
+Response: No response
+
+--- Example 4: Unknown ---
+Text: Ciao, come stai?
+Task: language
+Result: Italian
+Response: No response
+
+--- Example 5: Unknown ---
+Text: Pretty good overall.
+Task: sentiment
+Result: Positive
+Response: No response
+
+--- Example 6: Unknown ---
+Text: Привет, как дела?
+Task: language
+Result: Russian
+Response: No response
+
+[Progress: 2/6 sections completed]
+
+==================================================
+TECHNIQUE: In-Context Learning - Custom Task
+==================================================
+
+--- Example 1: Unknown ---
+Input: python
+Output: Output: otonpay
+Response: No response
+
+--- Example 2: Unknown ---
+Input: computer
+Output: Output: omputercay
+Response: No response
+
+--- Example 3: Unknown ---
+Input: language
+Output: Output: anguagelay
+Response: No response
+
+--- Example 4: Unknown ---
+Input: machine
+Output: Input: machine  
+Output: achinemay
+Response: No response
+
+--- Example 5: Unknown ---
+Input: example
+Output: Output: exampleay
+Response: No response
+
+[Progress: 3/6 sections completed]
+
+==================================================
+TECHNIQUE: Example Selection Strategies
+==================================================
+
+--- Example 1: Unknown ---
+Strategy: balanced
+Description: Balanced examples covering all classes
+Test Input: It's not bad, could be better though.
+Prediction: Sentiment: Neutral
+Examples Used: 3 examples
+Response: No response
+
+--- Example 2: Unknown ---
+Strategy: extreme
+Description: Extreme examples with strong sentiments
+Test Input: It's not bad, could be better though.
+Prediction: Neutral
+Examples Used: 3 examples
+Response: No response
+
+--- Example 3: Unknown ---
+Strategy: subtle
+Description: Subtle examples with weak sentiments
+Test Input: It's not bad, could be better though.
+Prediction: Sentiment: Neutral
+Examples Used: 3 examples
+Response: No response
+
+[Progress: 4/6 sections completed]
+
+==================================================
+TECHNIQUE: Few-Shot vs Zero-Shot Comparison
+==================================================
+
+--- Example 1: Unknown ---
+Product: iPhone 13 Pro with 128GB storage
+Zero-shot: Smartphones
+Few-shot: Electronics
+Response: No response
+
+--- Example 2: Unknown ---
+Product: Nike Air Max running shoes size 10
+Zero-shot: Footwear / Athletic Shoes / Running Shoes
+Few-shot: Sports & Outdoors
+Response: No response
+
+--- Example 3: Unknown ---
+Product: The Great Gatsby paperback novel
+Zero-shot: Literature / Fiction
+Few-shot: Books
+Response: No response
+
+--- Example 4: Unknown ---
+Product: Organic green tea bags, 20 count
+Zero-shot: Beverages / Tea
+Few-shot: Food & Beverages
+Response: No response
+
+--- Example 5: Unknown ---
+Product: Sony PlayStation 5 gaming console
+Zero-shot: Video Game Consoles
+Few-shot: Electronics
+Response: No response
+
+[Progress: 5/6 sections completed]
+
+==================================================
+TECHNIQUE: Adaptive Few-Shot Learning
+==================================================
+
+--- Example 1: Unknown ---
+Number of Examples: 1
+Test Input: Pretty disappointed with this purchase.
+Prediction: Negative
+Response: No response
+
+--- Example 2: Unknown ---
+Number of Examples: 2
+Test Input: Pretty disappointed with this purchase.
+Prediction: Negative
+Response: No response
+
+--- Example 3: Unknown ---
+Number of Examples: 3
+Test Input: Pretty disappointed with this purchase.
+Prediction: Negative
+Response: No response
+
+--- Example 4: Unknown ---
+Number of Examples: 6
+Test Input: Pretty disappointed with this purchase.
+Prediction: Negative
+Response: No response
+
+[Progress: 6/6 sections completed]
+
+============================================================
+COST SUMMARY
+============================================================
+==================================================
+SESSION SUMMARY: few_shot_learning
+==================================================
+Total Requests: 33
+Total Cost: $0.0004
+Total Tokens: 2,416
+  - Input: 2,328
+  - Output: 88
+Techniques Used: seq:step:2
+==================================================

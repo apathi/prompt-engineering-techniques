@@ -1,0 +1,85 @@
+# 14 Handling Ambiguity - Output
+# Generated: 2025-09-03 20:04:02
+# Status: COMPLETED
+# Clean output without debug information
+
+============================================================
+              TECHNIQUE 14: HANDLING AMBIGUITY              
+============================================================
+Context-aware ambiguity detection and resolution
+
+
+==================================================
+TECHNIQUE: Multi-Context Disambiguation
+==================================================
+
+--- Example 1: Context-Driven Ambiguity Resolution ---
+Approach: Context-Driven Ambiguity Resolution
+Problem: Ambiguous term 'bank' requires context specification
+Response: Certainly! When discussing a bank, it's important to consider several key aspects that define its services, reputation, and overall value to customers. Here are some important points to consider:
+
+### 1. **Types of Services Offered:**
+   - **Personal Banking:** This includes checking and savings accounts, certificates of deposit (CDs), and personal loans. Many banks also offer online and mobile banking services for convenience.
+   - **Business Banking:** Services tailored for businesses, such as business checking accounts, merchant services, and business loans.
+   - **Investment Services:** Some banks provide investment products, including brokerage accounts, retirement accounts (like IRAs), and wealth management services.
+   - **Mortgage Services:** Many banks offer home loans and refinancing options, along with home equity lines of credit (HELOCs).
+
+### 2. **Reputation and Stability:**
+   - **FDIC Insurance:** In the U.S., deposits in member banks are insured by the Federal Deposit Insurance Corporation (FDIC) up to $250,000 per depositor, which adds a layer of security.
+   - **Credit Ratings:** A bank's credit rating can indicate its financial health and stability. Higher ratings typically suggest a lower risk of default.
+
+### 3. **Fees and Interest Rates:**
+   - **Account Fees:** It's important to understand any monthly maintenance fees, ATM fees, and overdraft fees associated with accounts.
+   - **Interest Rates:** Compare the interest rates offered on savings accounts, CDs, and loans. Higher rates on savings can help grow your money, while lower rates on loans can save you money over time.
+
+### 4. **Customer Service:**
+   - **Accessibility:** Consider the availability of customer service through various channels, including phone, online chat, and in-person at branches.
+   - **Support:** Look for reviews or ratings regarding customer service experiences, as this can greatly impact your banking experience.
+
+### 5. **Technology and Innovation:**
+   - **Online and Mobile Banking:** Evaluate the bank's digital offerings, including mobile apps, online account management, and features like mobile check deposit.
+   - **Security Measures:** Ensure the bank employs robust security measures to protect your personal and financial information.
+
+### 6. **Community Involvement:**
+   - Some banks are known for their community involvement and support for local initiatives, which can be an important factor for customers who value corporate social responsibility.
+
+### 7. **Investment Opportunities:**
+   - If you're interested in investing, check if the bank offers investment advisory services, access to mutual funds, stocks, bonds, or retirement accounts. 
+
+### Conclusion:
+When choosing a bank, it's essential to assess your personal financial needs and preferences. Consider factors such as convenience, fees, interest rates, and the range of services offered. It may also be beneficial to compare multiple banks to find the one that best aligns with your financial goals. If you have specific banks in mind or particular services you’re interested in, I can provide more tailored information.
+
+[Progress: 1/2 sections completed]
+
+==================================================
+TECHNIQUE: Systematic Clarification Framework
+==================================================
+
+--- Example 1: Multi-Step Ambiguity Resolution Pipeline ---
+Approach: Multi-Step Ambiguity Resolution Pipeline
+Problem: Extremely vague request needs systematic clarification
+Response: **Clarified Request:**
+
+**Objective:** Improve the user experience of the mobile application.
+
+**1. What exactly needs improvement?**
+   - The navigation interface of the mobile application is currently confusing for users.
+   - The loading time for the app is longer than acceptable, leading to user frustration.
+   - The visual design lacks modern aesthetics and does not align with current design trends.
+
+**2. What specific enhancements are needed?**
+   - Redesign the navigation menu to be more intuitive, possibly incorporating a bottom navigation bar for easier access to key features.
+   - Optimize the app's performance to reduce loading times to under 2 seconds for all screens.
+   - Update the visual design to include a more contemporary color palette, improved typography, and engaging graphics.
+
+**3. What are the success criteria?**
+   - User feedback indicates a 20% improvement in navigation satisfaction in post-update surveys.
+   - Performance metrics show a loading time reduction to an average of 2 seconds or less.
+   - A/B testing of the new design results in a 15% increase in user engagement metrics (e.g., time spent in the app, number of screens viewed).
+
+**4. What constraints apply?**
+   - The project must be completed within a 6-week timeline.
+   - The budget for the enhancements is capped at $10,000.
+   - Any changes must be compatible with both iOS and Android platforms without requiring separate codebases.
+
+[Progress: 2/2 sections completed]
