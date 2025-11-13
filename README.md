@@ -47,7 +47,7 @@ This repository showcases **22 complete prompt engineering techniques** implemen
 
 ## 📚 Complete Prompt Engineering Technique Catalog
 
-### 01_Fundamental_Concepts (3 Techniques)
+### Fundamental_Concepts (3 Techniques)
 
 **01. Introduction to Prompt Engineering**
 - Demonstrates progression from vague to structured prompts, establishing foundational patterns for fact-checking and problem-solving approaches that improve response quality by 300%+.
@@ -60,7 +60,7 @@ This repository showcases **22 complete prompt engineering techniques** implemen
 
 ---
 
-### 02_Core_Techniques (3 Techniques)
+### Core_Techniques (3 Techniques)
 
 **04. Zero-Shot Prompting**
 - Executes tasks without examples through direct specification, role-based prompting, and format requirements—ideal for rapid prototyping and unpredictable scenarios.
@@ -73,7 +73,7 @@ This repository showcases **22 complete prompt engineering techniques** implemen
 
 ---
 
-### 03_Advanced_Strategies (3 Techniques)
+### Advanced_Strategies (3 Techniques)
 
 **07. Self-Consistency**
 - Generates multiple reasoning paths with voting mechanisms to select consensus answers, reducing errors through the "wisdom of crowds" principle applied to AI reasoning.
@@ -86,7 +86,7 @@ This repository showcases **22 complete prompt engineering techniques** implemen
 
 ---
 
-### 04_Advanced_Implementations (3 Techniques)
+### Advanced_Implementations (3 Techniques)
 
 **10. Task Decomposition**
 - Breaks complex projects into sequential subtasks with dependency tracking and parallel execution strategies, enabling systematic management of multi-team initiatives.
@@ -99,7 +99,7 @@ This repository showcases **22 complete prompt engineering techniques** implemen
 
 ---
 
-### 05_Optimization_and_Refinement (3 Techniques)
+### Optimization_and_Refinement (3 Techniques)
 
 **13. Prompt Optimization**
 - Applies A/B testing and iterative refinement with statistical validation, achieving 20-67% quality improvements through data-driven optimization cycles.
@@ -112,7 +112,7 @@ This repository showcases **22 complete prompt engineering techniques** implemen
 
 ---
 
-### 06_Specialized_Applications (3 Techniques)
+### Specialized_Applications (3 Techniques)
 
 **16. Negative Prompting**
 - Guides outputs by explicitly specifying exclusions with multi-layer constraint validation—critical for content moderation, brand safety, and legal compliance.
@@ -125,7 +125,7 @@ This repository showcases **22 complete prompt engineering techniques** implemen
 
 ---
 
-### 07_Advanced_Applications (4 Techniques)
+### Advanced_Applications (4 Techniques)
 
 **19. Multilingual Prompting**
 - Provides automatic language detection across 6+ languages with culturally-aware response generation and cross-lingual consistency validation for global communication.
